@@ -30,7 +30,7 @@ export default {
         username: cfg.username,
         password: cfg.password,
         database: cfg.database,
-        synchronize: false,
+        synchronize: true,
         logging: false,
         entities: [
           Anamnesis,
