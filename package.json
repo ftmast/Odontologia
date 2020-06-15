@@ -6,7 +6,11 @@
    "devDependencies": {
       "ts-node": "3.3.0",
       "@types/node": "^8.0.29",
-      "typescript": "2.5.2"
+      "typescript": "2.5.2",
+      "grunt": "^1.0.1",
+      "grunt-contrib-copy": "^1.0.0",
+      "grunt-contrib-watch": "^1.0.0",
+      "grunt-ts": "^6.0.0-beta.3"
    },
    "dependencies": {
       "body-parser": "^1.18.1",
@@ -20,6 +24,7 @@
    },
    "scripts": {
       "startDev": "ts-node src/index.ts",
+      "grunt": "grunt",
       "prestart": "npm i",
       "start": "node build/index.js",
       "server": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts --delay 1500ms",
