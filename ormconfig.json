@@ -1,6 +1,6 @@
 {
    "type": "mysql",
-   "host": "localhost",
+   "host": "mysql669.umbler.com",
    "port": 3306,
    "username": "ftmast",
    "password": "05376FantasmaFtmalan",
